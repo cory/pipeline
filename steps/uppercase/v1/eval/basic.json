@@ -1,0 +1,9 @@
+{
+  "name": "uppercase conversion",
+  "inputs": {
+    "text": "hello"
+  },
+  "expected": {
+    "text": "HELLO"
+  }
+}
