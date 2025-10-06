@@ -1,0 +1,31 @@
+{
+  "id": "sample",
+  "name": "Sample Echo Pipeline",
+  "description": "Demonstrates chaining two simple steps.",
+  "steps": [
+    {
+      "stepId": "echo",
+      "version": "v1",
+      "alias": "echo",
+      "inputs": {
+        "text": {
+          "source": "pipeline",
+          "key": "text"
+        }
+      }
+    },
+    {
+      "stepId": "uppercase",
+      "version": "v1",
+      "alias": "uppercase",
+      "inputs": {
+        "text": {
+          "source": "step",
+          "stepId": "echo",
+          "output": "text",
+          "key": "text"
+        }
+      }
+    }
+  ]
+}

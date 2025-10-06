@@ -1,0 +1,13 @@
+{
+  "id": "uppercase",
+  "version": "v1",
+  "name": "Uppercase Transformer",
+  "entry": "index.js",
+  "inputs": [
+    "text"
+  ],
+  "outputs": [
+    "text"
+  ],
+  "tools": []
+}

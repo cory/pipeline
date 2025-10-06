@@ -1,0 +1,9 @@
+{
+  "name": "basic echo",
+  "inputs": {
+    "text": "hello world"
+  },
+  "expected": {
+    "text": "hello world"
+  }
+}

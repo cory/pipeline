@@ -1,0 +1,13 @@
+{
+  "id": "echo",
+  "version": "v1",
+  "name": "Echo Input",
+  "entry": "index.js",
+  "inputs": [
+    "text"
+  ],
+  "outputs": [
+    "text"
+  ],
+  "tools": []
+}
